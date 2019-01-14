@@ -98,7 +98,7 @@ public class PacmanInteraction implements IKeyboardEvents {
 	}
 
 	@Override
-	public void right() {
+	public final void right() {
 		movePlayer(Direction.RIGHT);
 	}
 	
