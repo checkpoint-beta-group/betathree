@@ -100,7 +100,7 @@ public class Board implements IBoardInspector {
 	 * @param dy delta in y direction
 	 * @return Tile at (x+dx, y+dy)
 	 */
-	public Tile tileAtOffset(Tile t, int dx, int dy) {
+	public Tile tileAtOffset(final Tile t, final int dx, int dy) {
 		assert t != null;
         int newx = tunnelledCoordinate(t.getX(), getWidth(), dx);
         int newy = tunnelledCoordinate(t.getY(), getHeight(), dy);
