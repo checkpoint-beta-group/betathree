@@ -72,7 +72,7 @@ public class Board implements IBoardInspector {
 	}
 	
 	@Override
-	public SpriteType spriteTypeAt(int x, int y) {
+	public final SpriteType spriteTypeAt(int x, int y) {
 		Sprite s = spriteAt(x, y);
 		SpriteType result;
 		if (s == null) {
