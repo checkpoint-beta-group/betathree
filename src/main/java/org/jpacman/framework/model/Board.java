@@ -122,7 +122,7 @@ public class Board implements IBoardInspector {
 
 		return result;
 	}
-	
+
 	/**
 	 * Obtain the tile in the given direction.
 	 * @param t Starting position
