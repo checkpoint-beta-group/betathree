@@ -66,7 +66,7 @@ public class Board implements IBoardInspector {
 	}
 
 	@Override
-	public Sprite spriteAt(int x, int y) {
+	public Sprite spriteAt(final int x, final int y) {
 		assert withinBorders(x, y) : "PRE: (x,y) on board.";		
 		return tileAt(x, y).topSprite();
 	}
