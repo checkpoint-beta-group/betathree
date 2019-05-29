@@ -16,13 +16,13 @@ import org.jpacman.framework.model.Wall;
 public class DefaultGameFactory implements IGameFactory {
 
 	private transient Game theGame;
-	
+
 	@Override
 	public Game makeGame() {
 		theGame = new Game();
 		return theGame;
 	}
-	
+
 	@Override
 	public Player makePlayer() {
 		assert theGame != null;
