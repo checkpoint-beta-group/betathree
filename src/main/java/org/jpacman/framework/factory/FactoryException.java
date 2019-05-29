@@ -27,7 +27,7 @@ public class FactoryException extends Exception {
      * @param message Explanation of context
      * @param cause thrown earlier and propagated here.
      */
-    public FactoryException(String message, Throwable cause) {
+    public FactoryException(final String message, final Throwable cause) {
         super(message, cause);
     }
 }
